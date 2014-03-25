@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.cruty.parse60.ui.StartApp
+Created-By: 1.6.0_21 (Sun Microsystems Inc.)
+
