@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		489286E518E8FF3800E251EF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489286E418E8FF3800E251EF /* Cocoa.framework */; };
+		489286EF18E8FF3800E251EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 489286ED18E8FF3800E251EF /* InfoPlist.strings */; };
+		489286F118E8FF3800E251EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 489286F018E8FF3800E251EF /* main.m */; };
+		489286F518E8FF3800E251EF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 489286F318E8FF3800E251EF /* Credits.rtf */; };
+		489286F818E8FF3800E251EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 489286F718E8FF3800E251EF /* AppDelegate.m */; };
+		489286FB18E8FF3800E251EF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 489286F918E8FF3800E251EF /* MainMenu.xib */; };
+		489286FD18E8FF3800E251EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489286FC18E8FF3800E251EF /* Images.xcassets */; };
+		4892870418E8FF3800E251EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4892870318E8FF3800E251EF /* XCTest.framework */; };
+		4892870518E8FF3800E251EF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489286E418E8FF3800E251EF /* Cocoa.framework */; };
+		4892870D18E8FF3800E251EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4892870B18E8FF3800E251EF /* InfoPlist.strings */; };
+		4892870F18E8FF3800E251EF /* CUPSMsgToolsKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4892870E18E8FF3800E251EF /* CUPSMsgToolsKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4892870618E8FF3800E251EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489286D918E8FF3800E251EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489286E018E8FF3800E251EF;
+			remoteInfo = CUPSMsgToolsKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		489286E118E8FF3800E251EF /* CUPSMsgToolsKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CUPSMsgToolsKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		489286E418E8FF3800E251EF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		489286E718E8FF3800E251EF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		489286E818E8FF3800E251EF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		489286E918E8FF3800E251EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		489286EC18E8FF3800E251EF /* CUPSMsgToolsKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CUPSMsgToolsKit-Info.plist"; sourceTree = "<group>"; };
+		489286EE18E8FF3800E251EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		489286F018E8FF3800E251EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		489286F218E8FF3800E251EF /* CUPSMsgToolsKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CUPSMsgToolsKit-Prefix.pch"; sourceTree = "<group>"; };
+		489286F418E8FF3800E251EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		489286F618E8FF3800E251EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		489286F718E8FF3800E251EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		489286FA18E8FF3800E251EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		489286FC18E8FF3800E251EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4892870218E8FF3800E251EF /* CUPSMsgToolsKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CUPSMsgToolsKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4892870318E8FF3800E251EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4892870A18E8FF3800E251EF /* CUPSMsgToolsKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CUPSMsgToolsKitTests-Info.plist"; sourceTree = "<group>"; };
+		4892870C18E8FF3800E251EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4892870E18E8FF3800E251EF /* CUPSMsgToolsKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUPSMsgToolsKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		489286DE18E8FF3800E251EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489286E518E8FF3800E251EF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489286FF18E8FF3800E251EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4892870518E8FF3800E251EF /* Cocoa.framework in Frameworks */,
+				4892870418E8FF3800E251EF /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		489286D818E8FF3800E251EF = {
+			isa = PBXGroup;
+			children = (
+				489286EA18E8FF3800E251EF /* CUPSMsgToolsKit */,
+				4892870818E8FF3800E251EF /* CUPSMsgToolsKitTests */,
+				489286E318E8FF3800E251EF /* Frameworks */,
+				489286E218E8FF3800E251EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		489286E218E8FF3800E251EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				489286E118E8FF3800E251EF /* CUPSMsgToolsKit.app */,
+				4892870218E8FF3800E251EF /* CUPSMsgToolsKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		489286E318E8FF3800E251EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				489286E418E8FF3800E251EF /* Cocoa.framework */,
+				4892870318E8FF3800E251EF /* XCTest.framework */,
+				489286E618E8FF3800E251EF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		489286E618E8FF3800E251EF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				489286E718E8FF3800E251EF /* AppKit.framework */,
+				489286E818E8FF3800E251EF /* CoreData.framework */,
+				489286E918E8FF3800E251EF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		489286EA18E8FF3800E251EF /* CUPSMsgToolsKit */ = {
+			isa = PBXGroup;
+			children = (
+				489286F618E8FF3800E251EF /* AppDelegate.h */,
+				489286F718E8FF3800E251EF /* AppDelegate.m */,
+				489286F918E8FF3800E251EF /* MainMenu.xib */,
+				489286FC18E8FF3800E251EF /* Images.xcassets */,
+				489286EB18E8FF3800E251EF /* Supporting Files */,
+			);
+			path = CUPSMsgToolsKit;
+			sourceTree = "<group>";
+		};
+		489286EB18E8FF3800E251EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				489286EC18E8FF3800E251EF /* CUPSMsgToolsKit-Info.plist */,
+				489286ED18E8FF3800E251EF /* InfoPlist.strings */,
+				489286F018E8FF3800E251EF /* main.m */,
+				489286F218E8FF3800E251EF /* CUPSMsgToolsKit-Prefix.pch */,
+				489286F318E8FF3800E251EF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4892870818E8FF3800E251EF /* CUPSMsgToolsKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4892870E18E8FF3800E251EF /* CUPSMsgToolsKitTests.m */,
+				4892870918E8FF3800E251EF /* Supporting Files */,
+			);
+			path = CUPSMsgToolsKitTests;
+			sourceTree = "<group>";
+		};
+		4892870918E8FF3800E251EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4892870A18E8FF3800E251EF /* CUPSMsgToolsKitTests-Info.plist */,
+				4892870B18E8FF3800E251EF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		489286E018E8FF3800E251EF /* CUPSMsgToolsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4892871218E8FF3800E251EF /* Build configuration list for PBXNativeTarget "CUPSMsgToolsKit" */;
+			buildPhases = (
+				489286DD18E8FF3800E251EF /* Sources */,
+				489286DE18E8FF3800E251EF /* Frameworks */,
+				489286DF18E8FF3800E251EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CUPSMsgToolsKit;
+			productName = CUPSMsgToolsKit;
+			productReference = 489286E118E8FF3800E251EF /* CUPSMsgToolsKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4892870118E8FF3800E251EF /* CUPSMsgToolsKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4892871518E8FF3800E251EF /* Build configuration list for PBXNativeTarget "CUPSMsgToolsKitTests" */;
+			buildPhases = (
+				489286FE18E8FF3800E251EF /* Sources */,
+				489286FF18E8FF3800E251EF /* Frameworks */,
+				4892870018E8FF3800E251EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4892870718E8FF3800E251EF /* PBXTargetDependency */,
+			);
+			name = CUPSMsgToolsKitTests;
+			productName = CUPSMsgToolsKitTests;
+			productReference = 4892870218E8FF3800E251EF /* CUPSMsgToolsKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		489286D918E8FF3800E251EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "瞿 博文";
+				TargetAttributes = {
+					4892870118E8FF3800E251EF = {
+						TestTargetID = 489286E018E8FF3800E251EF;
+					};
+				};
+			};
+			buildConfigurationList = 489286DC18E8FF3800E251EF /* Build configuration list for PBXProject "CUPSMsgToolsKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 489286D818E8FF3800E251EF;
+			productRefGroup = 489286E218E8FF3800E251EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				489286E018E8FF3800E251EF /* CUPSMsgToolsKit */,
+				4892870118E8FF3800E251EF /* CUPSMsgToolsKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		489286DF18E8FF3800E251EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489286EF18E8FF3800E251EF /* InfoPlist.strings in Resources */,
+				489286FD18E8FF3800E251EF /* Images.xcassets in Resources */,
+				489286F518E8FF3800E251EF /* Credits.rtf in Resources */,
+				489286FB18E8FF3800E251EF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4892870018E8FF3800E251EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4892870D18E8FF3800E251EF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		489286DD18E8FF3800E251EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489286F818E8FF3800E251EF /* AppDelegate.m in Sources */,
+				489286F118E8FF3800E251EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489286FE18E8FF3800E251EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4892870F18E8FF3800E251EF /* CUPSMsgToolsKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4892870718E8FF3800E251EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489286E018E8FF3800E251EF /* CUPSMsgToolsKit */;
+			targetProxy = 4892870618E8FF3800E251EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		489286ED18E8FF3800E251EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489286EE18E8FF3800E251EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		489286F318E8FF3800E251EF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489286F418E8FF3800E251EF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		489286F918E8FF3800E251EF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489286FA18E8FF3800E251EF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4892870B18E8FF3800E251EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4892870C18E8FF3800E251EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4892871018E8FF3800E251EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4892871118E8FF3800E251EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4892871318E8FF3800E251EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CUPSMsgToolsKit/CUPSMsgToolsKit-Prefix.pch";
+				INFOPLIST_FILE = "CUPSMsgToolsKit/CUPSMsgToolsKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4892871418E8FF3800E251EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CUPSMsgToolsKit/CUPSMsgToolsKit-Prefix.pch";
+				INFOPLIST_FILE = "CUPSMsgToolsKit/CUPSMsgToolsKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4892871618E8FF3800E251EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CUPSMsgToolsKit.app/Contents/MacOS/CUPSMsgToolsKit";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CUPSMsgToolsKit/CUPSMsgToolsKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CUPSMsgToolsKitTests/CUPSMsgToolsKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4892871718E8FF3800E251EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CUPSMsgToolsKit.app/Contents/MacOS/CUPSMsgToolsKit";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CUPSMsgToolsKit/CUPSMsgToolsKit-Prefix.pch";
+				INFOPLIST_FILE = "CUPSMsgToolsKitTests/CUPSMsgToolsKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		489286DC18E8FF3800E251EF /* Build configuration list for PBXProject "CUPSMsgToolsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4892871018E8FF3800E251EF /* Debug */,
+				4892871118E8FF3800E251EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4892871218E8FF3800E251EF /* Build configuration list for PBXNativeTarget "CUPSMsgToolsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4892871318E8FF3800E251EF /* Debug */,
+				4892871418E8FF3800E251EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4892871518E8FF3800E251EF /* Build configuration list for PBXNativeTarget "CUPSMsgToolsKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4892871618E8FF3800E251EF /* Debug */,
+				4892871718E8FF3800E251EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 489286D918E8FF3800E251EF /* Project object */;
+}
